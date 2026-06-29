@@ -1,0 +1,1 @@
+javascript:(function(){var el=document.querySelectorAll('input,textarea');for(var i=0;i<el.length;i++){el[i].onpaste=null;el[i].oncopy=null;el[i].oncut=null;el[i].oncontextmenu=null;el[i].removeAttribute('onpaste');el[i].removeAttribute('oncopy');el[i].removeAttribute('oncut');el[i].removeAttribute('oncontextmenu');el[i].style.userSelect='auto';}})();
